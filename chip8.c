@@ -473,7 +473,7 @@ void render(SDL_Renderer *renderer, SDL_Texture *texture, unsigned char *screen)
 
     void *pixels; //points to a block of memory provided by SDL
     int pitch; //number of pixels per row
-    SDL_LockTexture(texture, NULL, &pixels, &pitch); //for direct access to the texture’s pixel data
+    SDL_LockTexture(texture, NULL, &pixels, &pitch); //for direct access to the textureÂ’s pixel data
 
     int *pixelBuffer = (int *)pixels;
 
