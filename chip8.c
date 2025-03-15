@@ -1,3 +1,4 @@
+// TODO: Fix the flickering issue in pong rom. Debug opcodes: 8xy4 8xy5 8xy6 8xy7 8xyE
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
