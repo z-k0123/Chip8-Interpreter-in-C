@@ -1,5 +1,5 @@
 # Chip8-Interpreter-in-C
-A Chip-8 interpreter/emulator made for educational purposes. It "works" but has issues so it's is still work in progress.
+A Chip-8 interpreter/emulator made for educational purposes. It "works" but has issues so it's still work in progress.
 
 Thanks to:
 
