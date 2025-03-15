@@ -48,20 +48,19 @@ unsigned char fontset[80] =
 
 
 int main(int argc, char *argv[]){
-//    if (argc < 2) {
-//        printf("Usage: %s <rom_file>\n", argv[0]);
-//        return 1;
-//    }
+    if (argc < 2) {
+        printf("Usage: %s <rom_file>\n", argv[0]);
+        return 1;
+    }
     printf("Starting...\n");
     initialize();
     load_rom(argv[1]);
+	
     for (int i = 0; i < 10; i++) {
     printf("memory[%X] = %02X\n", 0x200 + i, memory[0x200 + i]);
     }
-
-    handle_input(keypad);  // Process input events
+	
     setupGraphics();
-
 
     while(1){
         handle_input(keypad);
