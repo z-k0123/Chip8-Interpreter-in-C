@@ -1,7 +1,7 @@
 # Chip8-Interpreter-in-C
-A Chip-8 interpreter/emulator made for educational purposes. It "works" but has issues so it's still work in progress.
+A Chip-8 interpreter/emulator made for educational purposes. It "works" but has some issues so it's still work in progress.
 
-Thanks to:
+Resources:
 
 https://multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/
 
@@ -12,5 +12,3 @@ http://devernay.free.fr/hacks/chip8/C8TECH10.HTM
 https://www.emulationonline.com/
 
 https://lazyfoo.net/tutorials/SDL/index.php
-
-I couldn't have done without these resources. 
